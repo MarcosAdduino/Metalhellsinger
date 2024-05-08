@@ -1,0 +1,71 @@
+
+body {
+    background-image: url('https://cdn2.steamgriddb.com/grid/bb3ca3a24fa7cacb094248ba7048249a.png');
+    background-size: 100%;
+    
+}
+
+#imagen_piola{
+    border-radius: 20px;
+    filter: blur(1000px);
+    box-shadow: 0px 5px 25px black;
+    transition: ease-in-out 0.5s;
+    
+}
+#imagen_piola{
+
+    filter: blur(0px);
+    transition: ease-in-out 0.5s;
+
+}
+
+a{
+    color: rgb(255, 72, 0);
+    text-shadow: 0px 5px 5px black;
+    font-size: 500%;
+    font-family:Heartless 
+    
+}
+
+p{
+    color: rgb(255, 72, 0);
+    text-shadow: 0px 5px 5px black;
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.452);
+    backdrop-filter: blur(50px);
+    width: 80%;
+    border-radius: 10px;
+}
+
+#bg_parrafo {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.caja {
+    width: 99%; 
+    height: 600px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 20px 10px black;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.imagen-cuadrada {
+    max-width: 100%; 
+    max-height: 100%;
+    object-position: 70% 35%;
+    object-fit:none;
+    border-radius: 20px; 
+
+}
